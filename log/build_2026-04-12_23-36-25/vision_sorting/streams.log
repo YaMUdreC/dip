@@ -1,0 +1,29 @@
+[2.364s] Invoking command in '/home/ros/ros2_ws/src/vision_sorting': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_ws/build/vision_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_sorting build --build-base /home/ros/ros2_ws/build/vision_sorting/build install --record /home/ros/ros2_ws/build/vision_sorting/install.log --single-version-externally-managed install_data
+[2.953s] running egg_info
+[2.983s] writing ../../build/vision_sorting/vision_sorting.egg-info/PKG-INFO
+[2.985s] writing dependency_links to ../../build/vision_sorting/vision_sorting.egg-info/dependency_links.txt
+[2.986s] writing entry points to ../../build/vision_sorting/vision_sorting.egg-info/entry_points.txt
+[2.986s] writing requirements to ../../build/vision_sorting/vision_sorting.egg-info/requires.txt
+[2.987s] writing top-level names to ../../build/vision_sorting/vision_sorting.egg-info/top_level.txt
+[3.055s] reading manifest file '../../build/vision_sorting/vision_sorting.egg-info/SOURCES.txt'
+[3.056s] adding license file 'LICENSE'
+[3.056s] writing manifest file '../../build/vision_sorting/vision_sorting.egg-info/SOURCES.txt'
+[3.057s] running build
+[3.057s] running build_py
+[3.058s] copying vision_sorting/detection_listener.py -> /home/ros/ros2_ws/build/vision_sorting/build/lib/vision_sorting
+[3.059s] running install
+[3.072s] running install_lib
+[3.107s] copying /home/ros/ros2_ws/build/vision_sorting/build/lib/vision_sorting/detection_listener.py -> /home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages/vision_sorting
+[3.110s] byte-compiling /home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages/vision_sorting/detection_listener.py to detection_listener.cpython-312.pyc
+[3.112s] running install_data
+[3.114s] running install_egg_info
+[3.148s] removing '/home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages/vision_sorting-0.0.0-py3.12.egg-info' (and everything under it)
+[3.149s] Copying ../../build/vision_sorting/vision_sorting.egg-info to /home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages/vision_sorting-0.0.0-py3.12.egg-info
+[3.151s] running install_scripts
+[3.364s] Installing detection_listener script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting
+[3.365s] Installing image_publisher script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting
+[3.366s] Installing image_subscriber script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting
+[3.366s] Installing test_node script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting
+[3.367s] Installing vision_node script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting
+[3.367s] writing list of installed files to '/home/ros/ros2_ws/build/vision_sorting/install.log'
+[3.434s] Invoked command in '/home/ros/ros2_ws/src/vision_sorting' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ros/ros2_ws/build/vision_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_sorting build --build-base /home/ros/ros2_ws/build/vision_sorting/build install --record /home/ros/ros2_ws/build/vision_sorting/install.log --single-version-externally-managed install_data

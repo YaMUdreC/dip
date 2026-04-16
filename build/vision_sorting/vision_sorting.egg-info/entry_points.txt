@@ -1,0 +1,8 @@
+[console_scripts]
+detection_listener = vision_sorting.detection_listener:main
+image_publisher = vision_sorting.image_publisher:main
+image_subscriber = vision_sorting.image_subscriber:main
+target_3d_estimator = vision_sorting.target_3d_estimator:main
+target_selector = vision_sorting.target_selector:main
+test_node = vision_sorting.test_node:main
+vision_node = vision_sorting.vision_node:main

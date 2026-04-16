@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000532] (vision_sorting) JobQueued: {'identifier': 'vision_sorting', 'dependencies': OrderedDict()}
+[0.000627] (vision_sorting) JobStarted: {'identifier': 'vision_sorting'}
+[0.098531] (-) TimerEvent: {}
+[0.199099] (-) TimerEvent: {}
+[0.302352] (-) TimerEvent: {}
+[0.402969] (-) TimerEvent: {}
+[0.504395] (-) TimerEvent: {}
+[0.604787] (-) TimerEvent: {}
+[0.734019] (-) TimerEvent: {}
+[0.836656] (-) TimerEvent: {}
+[0.947902] (-) TimerEvent: {}
+[1.049141] (-) TimerEvent: {}
+[1.152982] (-) TimerEvent: {}
+[1.253457] (-) TimerEvent: {}
+[1.358433] (-) TimerEvent: {}
+[1.462858] (-) TimerEvent: {}
+[1.566817] (-) TimerEvent: {}
+[1.667245] (-) TimerEvent: {}
+[1.767824] (-) TimerEvent: {}
+[1.868648] (-) TimerEvent: {}
+[1.969216] (-) TimerEvent: {}
+[2.070053] (-) TimerEvent: {}
+[2.170495] (-) TimerEvent: {}
+[2.271277] (-) TimerEvent: {}
+[2.362810] (vision_sorting) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vision_sorting', 'build', '--build-base', '/home/ros/ros2_ws/build/vision_sorting/build', 'install', '--record', '/home/ros/ros2_ws/build/vision_sorting/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros/ros2_ws/src/vision_sorting', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ros', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ros', 'OLDPWD': '/home/ros/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1967', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ros/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ros', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ros', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/ros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros-VirtualBox:@/tmp/.ICE-unix/1936,unix/ros-VirtualBox:/tmp/.ICE-unix/1936', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3fbe3cc0_2573_4b6a_8dd6_91c0f144602c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LS5KN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.127', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ros/ros2_ws/install/vision_sorting:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ros/ros2_ws/build/vision_sorting', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ros/ros2_ws/build/vision_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages:/home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.371515] (-) TimerEvent: {}
+[2.473760] (-) TimerEvent: {}
+[2.574619] (-) TimerEvent: {}
+[2.675437] (-) TimerEvent: {}
+[2.782281] (-) TimerEvent: {}
+[2.883324] (-) TimerEvent: {}
+[2.953227] (vision_sorting) StdoutLine: {'line': b'running egg_info\n'}
+[2.983231] (vision_sorting) StdoutLine: {'line': b'writing ../../build/vision_sorting/vision_sorting.egg-info/PKG-INFO\n'}
+[2.983464] (-) TimerEvent: {}
+[2.985696] (vision_sorting) StdoutLine: {'line': b'writing dependency_links to ../../build/vision_sorting/vision_sorting.egg-info/dependency_links.txt\n'}
+[2.986147] (vision_sorting) StdoutLine: {'line': b'writing entry points to ../../build/vision_sorting/vision_sorting.egg-info/entry_points.txt\n'}
+[2.986740] (vision_sorting) StdoutLine: {'line': b'writing requirements to ../../build/vision_sorting/vision_sorting.egg-info/requires.txt\n'}
+[2.987139] (vision_sorting) StdoutLine: {'line': b'writing top-level names to ../../build/vision_sorting/vision_sorting.egg-info/top_level.txt\n'}
+[3.055040] (vision_sorting) StdoutLine: {'line': b"reading manifest file '../../build/vision_sorting/vision_sorting.egg-info/SOURCES.txt'\n"}
+[3.055933] (vision_sorting) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.056652] (vision_sorting) StdoutLine: {'line': b"writing manifest file '../../build/vision_sorting/vision_sorting.egg-info/SOURCES.txt'\n"}
+[3.057088] (vision_sorting) StdoutLine: {'line': b'running build\n'}
+[3.057281] (vision_sorting) StdoutLine: {'line': b'running build_py\n'}
+[3.058488] (vision_sorting) StdoutLine: {'line': b'copying vision_sorting/detection_listener.py -> /home/ros/ros2_ws/build/vision_sorting/build/lib/vision_sorting\n'}
+[3.059842] (vision_sorting) StdoutLine: {'line': b'running install\n'}
+[3.072718] (vision_sorting) StdoutLine: {'line': b'running install_lib\n'}
+[3.084029] (-) TimerEvent: {}
+[3.107809] (vision_sorting) StdoutLine: {'line': b'copying /home/ros/ros2_ws/build/vision_sorting/build/lib/vision_sorting/detection_listener.py -> /home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages/vision_sorting\n'}
+[3.110100] (vision_sorting) StdoutLine: {'line': b'byte-compiling /home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages/vision_sorting/detection_listener.py to detection_listener.cpython-312.pyc\n'}
+[3.112048] (vision_sorting) StdoutLine: {'line': b'running install_data\n'}
+[3.114207] (vision_sorting) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.148701] (vision_sorting) StdoutLine: {'line': b"removing '/home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages/vision_sorting-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.149913] (vision_sorting) StdoutLine: {'line': b'Copying ../../build/vision_sorting/vision_sorting.egg-info to /home/ros/ros2_ws/install/vision_sorting/lib/python3.12/site-packages/vision_sorting-0.0.0-py3.12.egg-info\n'}
+[3.151568] (vision_sorting) StdoutLine: {'line': b'running install_scripts\n'}
+[3.186083] (-) TimerEvent: {}
+[3.304838] (-) TimerEvent: {}
+[3.364401] (vision_sorting) StdoutLine: {'line': b'Installing detection_listener script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting\n'}
+[3.365601] (vision_sorting) StdoutLine: {'line': b'Installing image_publisher script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting\n'}
+[3.366428] (vision_sorting) StdoutLine: {'line': b'Installing image_subscriber script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting\n'}
+[3.366703] (vision_sorting) StdoutLine: {'line': b'Installing test_node script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting\n'}
+[3.367033] (vision_sorting) StdoutLine: {'line': b'Installing vision_node script to /home/ros/ros2_ws/install/vision_sorting/lib/vision_sorting\n'}
+[3.367219] (vision_sorting) StdoutLine: {'line': b"writing list of installed files to '/home/ros/ros2_ws/build/vision_sorting/install.log'\n"}
+[3.434653] (vision_sorting) CommandEnded: {'returncode': 0}
+[3.435291] (-) TimerEvent: {}
+[3.470652] (vision_sorting) JobEnded: {'identifier': 'vision_sorting', 'rc': 0}
+[3.472396] (-) EventReactorShutdown: {}
