@@ -1,13 +1,13 @@
 # dip
-source /opt/ros/jazzy/setup.bash
+source /opt/ros/jazzy/setup.bash \n
 ros2 launch ros_gz_sim_demos rgbd_camera_bridge.launch.py
 
-source /opt/ros/jazzy/setup.bash
-source ~/ros2_ws/install/setup.bash
+source /opt/ros/jazzy/setup.bash \n
+source ~/ros2_ws/install/setup.bash \n
 ros2 run vision_sorting vision_node --ros-args -p image_topic:=/rgbd_camera/image
 
-source /opt/ros/jazzy/setup.bash
-source ~/ros2_ws/install/setup.bash
+source /opt/ros/jazzy/setup.bash \n
+source ~/ros2_ws/install/setup.bash \n
 ros2 run vision_sorting target_3d_estimator --ros-args \
   -p detections_topic:=/detections \
   -p depth_topic:=/rgbd_camera/depth_image \
